@@ -20,6 +20,86 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.api@1.0",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/product/lib64/com.quicinc.cne.api@1.0.so"],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.api@1.1",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/product/lib64/com.quicinc.cne.api@1.1.so"],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.constants@1.0",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/product/lib64/com.quicinc.cne.constants@1.0.so"],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.constants@2.0",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/product/lib64/com.quicinc.cne.constants@2.0.so"],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.quicinc.cne.constants@2.1",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/product/lib64/com.quicinc.cne.constants@2.1.so"],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	product_specific: true,
+}
+
 android_app_import {
 	name: "SoterService",
 	owner: "xiaomi",
