@@ -632,6 +632,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libantradio \
     libgpustats \
+    libqcomfm_jni \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
