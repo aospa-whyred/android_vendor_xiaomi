@@ -1,0 +1,15 @@
+name: CI
+
+on: pull_request
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Notify
+      env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      run: curl -o github_notifier.sh "https://raw.githubusercontent.com/PixelExperience-Devices/vendor_xiaomi/ten/pr_notifier.sh" && bash github_notifier.sh
+       
