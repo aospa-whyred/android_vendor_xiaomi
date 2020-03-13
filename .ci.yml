@@ -1,0 +1,20 @@
+version: v1.0
+name: Pixel CI
+agent:
+  machine:
+    type: e1-standard-2
+    
+  containers:
+    - name: main
+      image: alpine:edge
+blocks:
+  - name: Xiaomi Vendor Notifier
+    task:
+      jobs:
+      - name: Job
+        commands:
+          - apk add curl bash --no-cache
+          - curl -sLo pr_notifier.sh https://raw.githubusercontent.com/PixelExperience-Devices/vendor_xiaomi/ten/pr_notifier.sh
+          - bash pr_notifier.sh
+      secrets:
+        - name: Pixel-CI
