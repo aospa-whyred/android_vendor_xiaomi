@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter jasmine_sprout wayne whyred,$(TARGET_DEVICE)),)
+ifneq ($(filter twolip jasmine_sprout wayne clover jason whyred,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := chargeonlymode
