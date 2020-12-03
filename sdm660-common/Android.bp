@@ -215,7 +215,7 @@ android_app_import {
 	name: "CallFeaturesSetting",
 	owner: "xiaomi",
 	apk: "proprietary/product/app/CallFeaturesSetting/CallFeaturesSetting.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -237,7 +237,7 @@ android_app_import {
 	name: "ConfURIDialer",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/ConfURIDialer/ConfURIDialer.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -248,7 +248,7 @@ android_app_import {
 	name: "ConferenceDialer",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/ConferenceDialer/ConferenceDialer.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -259,7 +259,7 @@ android_app_import {
 	name: "DeviceInfo",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/DeviceInfo/DeviceInfo.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -270,7 +270,7 @@ android_app_import {
 	name: "DeviceStatisticsService",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/DeviceStatisticsService/DeviceStatisticsService.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -281,7 +281,7 @@ android_app_import {
 	name: "DynamicDDSService",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/DynamicDDSService/DynamicDDSService.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -292,7 +292,7 @@ android_app_import {
 	name: "NetworkSetting",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/NetworkSetting/NetworkSetting.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -303,7 +303,7 @@ android_app_import {
 	name: "QtiTelephonyService",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -314,7 +314,7 @@ android_app_import {
 	name: "SimContact",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/SimContact/SimContact.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -325,7 +325,7 @@ android_app_import {
 	name: "SimSettings",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/SimSettings/SimSettings.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -336,7 +336,7 @@ android_app_import {
 	name: "atfwd",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/atfwd/atfwd.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -347,7 +347,7 @@ android_app_import {
 	name: "datastatusnotification",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -358,7 +358,7 @@ android_app_import {
 	name: "embms",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/embms/embms.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -369,7 +369,7 @@ android_app_import {
 	name: "imssettings",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -380,7 +380,7 @@ android_app_import {
 	name: "remoteSimLockAuthentication",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/remoteSimLockAuthentication/remoteSimLockAuthentication.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -391,7 +391,7 @@ android_app_import {
 	name: "remotesimlockservice",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/remotesimlockservice/remotesimlockservice.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -402,7 +402,7 @@ android_app_import {
 	name: "uceShimService",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -413,7 +413,7 @@ android_app_import {
 	name: "uimgbaservice",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/uimgbaservice/uimgbaservice.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -424,7 +424,7 @@ android_app_import {
 	name: "uimlpaservice",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/uimlpaservice/uimlpaservice.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -435,7 +435,7 @@ android_app_import {
 	name: "uimremoteclient",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/uimremoteclient/uimremoteclient.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -446,7 +446,7 @@ android_app_import {
 	name: "uimremoteserver",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/uimremoteserver/uimremoteserver.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -457,7 +457,7 @@ android_app_import {
 	name: "xdivert",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/xdivert/xdivert.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -468,7 +468,7 @@ android_app_import {
 	name: "QAS_DVC_MSP",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -480,7 +480,7 @@ android_app_import {
 	name: "dpmserviceapp",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -492,7 +492,7 @@ android_app_import {
 	name: "ims",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -504,7 +504,7 @@ android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
